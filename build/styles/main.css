@@ -333,10 +333,15 @@ body.customize-support .wp-panel-show {
   color: white;
 }
 
+#download-application .fancybox-button svg {
+  color: #F83060;
+}
+
 #call_success {
   max-width: 950px;
   width: 100%;
   margin: 0 auto;
+  padding: 20px;
   background-color: white;
 }
 
@@ -355,7 +360,9 @@ body.customize-support .wp-panel-show {
 }
 
 #call_success .call-success-wrap .call-success-subtitle p {
+  color: #B6B6B6;
   margin-bottom: 55px;
+  font-weight: bold;
 }
 
 #call_success .call-success-wrap .call-success-subtitle .button {
@@ -975,13 +982,13 @@ a {
     padding-bottom: 35px;
   }
   #download-application p {
-    font-size: 24px;
     margin: 0 0 0 22px;
   }
   #download-application p.title {
     width: 230px;
     margin-bottom: 30px;
     padding-top: 45px;
+    font-size: 24px;
   }
   #download-application p.notification {
     max-width: 308px;
@@ -1013,13 +1020,12 @@ a {
   }
   #download-application .form input[type='email'] {
     max-width: 293px;
-    margin: 0 0 0 92px;
     padding: 13px 60px 13px 22px;
-    margin: 0 0 20px 22px;
+    margin: 0 0 20px 0;
   }
   #download-application .form button[type='submit'] {
     position: static;
-    margin: 0 auto;
+    margin-left: -2px;
     color: white;
   }
 }
@@ -1148,6 +1154,19 @@ a {
 }
 
 @media screen and (max-width: 480px) {
+  #call_success {
+    max-width: 336px;
+    width: 100%;
+  }
+  #call_success .call-success-wrap .call-success-title {
+    text-align: start;
+  }
+  #call_success .call-success-wrap .call-success-title h2 {
+    font-size: 28px;
+  }
+  #call_success .call-success-wrap .call-success-subtitle p {
+    text-align: start;
+  }
   .main-heading .container .application {
     text-align: unset;
   }
@@ -1193,6 +1212,15 @@ a {
     padding: 12px 0 0 40px;
     background-position: 0 24px;
     text-align: start;
+  }
+}
+
+@media screen and (max-width: 335px) {
+  #download-application p {
+    margin: 0 0 0 13px;
+  }
+  #download-application .timer-content {
+    margin: 0 0 40px 13px;
   }
 }
 

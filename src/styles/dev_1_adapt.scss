@@ -80,14 +80,13 @@
     #download-application {
         max-width: 336px;
         padding-bottom: 35px;
-        p {
-            font-size: 24px;
-    
+        p {  
             margin: 0 0 0 22px;
             &.title {
                 width: 230px;
                 margin-bottom: 30px;
                 padding-top: 45px;
+                font-size: 24px;
             }
             &.notification {
                 max-width: 308px;
@@ -125,15 +124,14 @@
             input[type='email'] {
                 max-width: 293px;
 
-                margin: 0 0 0 92px;
                 padding: 13px 60px 13px 22px;
     
-                margin: 0 0 20px 22px;
+                margin: 0 0 20px 0;
             }
             button[type='submit'] {
                 position: static;
     
-                margin: 0 auto;
+                margin-left: -2px;
     
                 color: white;
             }
@@ -306,6 +304,23 @@
 }
 
 @media screen and (max-width: 480px){
+    #call_success {
+        max-width: 336px;
+        width: 100%;
+        .call-success-wrap {
+            .call-success-title {
+                text-align: start;
+                h2 {
+                    font-size: 28px;
+                }
+            }
+            .call-success-subtitle {
+                p {
+                    text-align: start;
+                }
+            }
+        }
+    }
     .main-heading {
         .container {
             .application {
@@ -384,6 +399,17 @@
                     text-align: start;
                 }
             }
+        }
+    }
+}
+
+@media screen and (max-width: 335px) {
+    #download-application {
+        p {  
+            margin: 0 0 0 13px;
+        }
+        .timer-content {
+            margin: 0 0 40px 13px;
         }
     }
 }

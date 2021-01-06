@@ -124,12 +124,16 @@
             color: white;
         }
     }
+    .fancybox-button svg {
+        color: #F83060;
+    }
 }
 
 #call_success {
     max-width: 950px;
     width: 100%;
     margin: 0 auto;
+    padding: 20px;
     background-color: white;
     .call-success-wrap {
         .call-success-title {
@@ -143,7 +147,9 @@
         .call-success-subtitle {
             text-align: center;
             p {
+                color: #B6B6B6;
                 margin-bottom: 55px;
+                font-weight: bold;
             }
             .button {
                 display: block;
