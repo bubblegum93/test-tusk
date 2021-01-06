@@ -1,0 +1,389 @@
+@media screen and (max-width: 1280px){
+    .motivation-app {
+        .container {
+            .wrapp-img {
+                .no-adaptive {
+                    display: none;
+                }
+                .adaptive {
+                    display: block;
+                    right: 0;
+                    top: 262px;
+                }
+            }
+            .list-motivation {
+                margin: 325px auto 0px;
+                padding-bottom: 10px;
+            }
+        }
+    }
+    .you2 {
+        .container {
+            .wrapp-container {
+                justify-content: center;
+                .wrapp-img {
+                    display: none;
+                }
+                .about-you2 {
+                    margin: 75px 0 0 0;
+                    p {
+                        margin: 0;
+                    }
+                    .download-application {
+                        margin: 0 0 30px 0;
+                    }
+                }
+            }
+        }
+    }
+    .footer {
+        .container {
+            .wrapp-container {
+                padding: 30px 0 45px 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1152px){
+    .system-penalties {
+        .container {
+            .wrapp-container {
+                justify-content: center;
+                .about-penalties {
+                    padding: 50px 0 0 0;
+                    margin: 0;
+                    h3 {
+                        margin: 0 0 390px 0;
+
+                        font-size: 25px;
+                        max-width: 335px;
+                    }
+                }
+                .picture-img {
+                    img {
+                        position: absolute;
+                        top: 159px;
+                        left: calc(42% - 265px);
+
+                        object-fit: cover;
+                        width: 633px;
+                        height: 388px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #download-application {
+        max-width: 336px;
+        padding-bottom: 35px;
+        p {
+            font-size: 24px;
+    
+            margin: 0 0 0 22px;
+            &.title {
+                width: 230px;
+                margin-bottom: 30px;
+                padding-top: 45px;
+            }
+            &.notification {
+                max-width: 308px;
+    
+                font-size: 14px;
+
+                margin-bottom: 30px;
+            }
+            &.timer-title {
+                font-size: 12px;
+                margin-left: 27px;
+            }
+        }
+        .timer-content {
+            font-size: 36px;
+            margin: 0 0 40px 22px;
+            .timer {
+                margin: 0 12px 0 0;
+                .timer-val {
+                    &::after {
+                        top: 9px;
+                        left: -18px;
+    
+                        font-size: 23px;
+                    }
+                }
+                .timer-colon {
+                    color: rgba(243, 80, 80, 0.2);
+                    font-size: 24px;
+                }
+            }
+        }
+        .form {
+            position: relative;
+            input[type='email'] {
+                max-width: 293px;
+
+                margin: 0 0 0 92px;
+                padding: 13px 60px 13px 22px;
+    
+                margin: 0 0 20px 22px;
+            }
+            button[type='submit'] {
+                position: static;
+    
+                margin: 0 auto;
+    
+                color: white;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 960px){
+    .main-heading {
+        .container {
+            flex-direction: column;
+            align-items: center;
+
+            .application {
+                margin-top: 50px;
+                text-align: center;
+                .about-application {
+                    h3 {
+                        margin: 0 auto;
+                        margin-bottom: 40px;
+                    }
+                    p {
+                        display: none;
+                    }
+                }
+                .button {
+                    position: absolute;
+                    left: calc(42% - 100px);
+                    top: 77%;
+                    padding: 14px 135px;
+                }
+            }
+            .wrapper-img {
+                margin: 0 0 0 50px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 800px){
+    .motivation-app {
+        .container {
+            .about-motivation {
+                margin: 0;
+                h3 {
+                    padding-top: 50px;
+                    font-size: 28px;
+                }
+                > p {
+                    display: none;
+                }
+            }
+            .wrapp-img {
+                .adaptive {
+                    top: 86px;
+                }
+            }
+            .list-motivation {
+               flex-direction: column;
+               align-items: center;
+            }
+        }
+    }
+    .no-soap {
+        background-position: -323px 0px;
+        .container {
+            .wrapp {
+                flex-direction: column;
+                align-items: center;
+                .wrapp-list {
+                    h3 {
+                        font-size: 28px;
+                        padding-top: 75px;
+                    }
+                    .no-soap-list {
+                        margin-bottom: 35px;
+                    }
+                }
+                .wrapp-img {
+                    img {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 720px){
+    .main-heading {
+        .container {
+            .application {
+                .button {
+                    left: calc(42% - 120px);
+                }
+            }
+        }
+    }
+    //begin mob-application
+    .mob-application {
+        padding-bottom: 60px;
+        .container {
+            flex-direction: column;
+            padding-top: 70px;
+
+            .logo-mob-application {
+            margin-bottom: 44px;
+            }
+            p {
+            margin: 0;
+            }
+        }
+    }
+//end mob-application
+
+//begin advantages
+    .advantages {
+        .container {
+            h3 {
+                max-width: 285px;
+                font-size: 28px;
+
+                padding: 76px 0 41px 0;
+            }
+            .list-advantages {
+                flex-direction: column;
+                align-items: center;
+
+                li {
+                    margin: 0 0 60px 0;
+                }
+            }
+        }
+    }
+//end advantages
+}
+
+@media screen and (max-width: 640px){
+    .system-penalties {
+        .container {
+            .wrapp-container {
+                .picture-img {
+                    img {
+                        position: absolute;
+                        top: 159px;
+                        left: 0;
+
+                        object-fit: cover;
+                        width: 633px;
+                        height: 388px;
+                    }
+                }
+            }
+        }
+    }
+    .you2 {
+        .container {
+            .wrapp-container {
+                .about-you2 {
+                    p {
+                        font-size: 28px;
+                    }
+                    .download-application {
+                        flex-direction: column;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px){
+    .main-heading {
+        .container {
+            .application {
+                text-align: unset;
+                .about-application {
+                    h2 {
+                        font-size: 30px;
+                        max-width: 295px;
+                    }
+                }
+                .button {
+                    left: calc(42% - 120px);
+                    padding: 14px 112px;
+                }
+            }
+            .wrapper-img {
+                margin-left: 30px;
+            }
+        }
+    }
+    .motivation-app {
+        .container {
+            .about-motivation {
+                h3 {
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+    .reviews {
+        .container {
+            h3 {
+                padding-top: 75px;
+                margin: 0 0 70px 0px;
+            }
+            .reviews-slider {
+                margin-bottom: 36px;
+                .user {
+                   .user-wrapp {
+                       .user-photo {
+                           margin: 32px 15px 0 15px;
+
+                           width: 77px;
+                           height: 77px;
+                       }
+                   } 
+                }
+            }
+        }
+    }
+    .no-soap {
+        .container {
+            .wrapp {
+                .wrapp-list {
+                    h3 {
+                        padding: 75px 0 45px 15px;
+                    }
+                    .no-soap-list {
+                        li {
+                            margin: 0 0 25px 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer {
+        .container {
+            .wrapp-container {
+                flex-direction: column;
+                align-items: flex-start;
+                .location {
+                    padding: 12px 0 0 40px;
+                    background-position: 0 24px;
+
+                    text-align: start;
+                }
+            }
+        }
+    }
+}
